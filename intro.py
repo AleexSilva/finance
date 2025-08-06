@@ -30,3 +30,18 @@ print(number)
 
 np.random.randint(1,10,(4,6))
 
+
+# Financial Data
+# 1. Free vs paid
+
+# Roadmap: Programming -> Finane & Investment Theory -> Analysis -> Real-life Examples
+# Data: crucial for analysis. Data quality make the difference.
+
+
+ser = pd.Series(np.random.random(5),name = "Col 01")
+
+ser
+
+ser[2]
+
+from pandas_datareader import data as pdr 
